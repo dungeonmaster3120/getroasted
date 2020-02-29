@@ -1,97 +1,130 @@
 <html>
 <head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
+<link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+<link href="http://allfont.net/allfont.css?fonts=snickles" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Kristi" />
+<link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Just+Another+Hand|Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <title>Get Roasted</title>
 </head>
 <style type="text/css">
-  p {
-    font-family: Arial;
-
+  body {
+    background-color: #d2ebe9;
   }
   .container {
-  position: relative;
-  text-align: center;
-  top: 10%;
-}
-.bottom-left {
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "Bernard MT Condensed", serif;
-  color: white;
-  background-color: #68bef7;
-  font-size: 5vw;
-  font-size: 5vh;
-}
-.buttonSelectFile {
-  position: relative;
-  top: 4em;
-  right: 25%;
-}
-.buttonUpload {
-  position: relative;
-  top: 2.3em;
-  left: 8%;
- 
-}
-.buttonRefresh {
-
-}
-.buttonShare {
+    background-color: #ff80b0;
+    width: 100vw;
+    height: 5vw;
+    margin: 2% 0 0 0;
+  }
+  .text-getroasted {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 3.5vw;
+    margin: 0.5% 0 0 40%;
+  }
+  .text-simple {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3vw;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0 0 0 43.5%;
+  }
+  .select-file {
+    width: 90vw;
+    height: 5vw;
+    min-width: 90vw;
+    min-height: 5vw;
+    margin: 2.5% 0 0 5%;
+    border: 0.5vw solid #e33063;
+    border-radius: 35px;
+    font-size: 0.005vw;
+    font-weight: ;
+    font-family: ; 
+    background-color: #fe346e;
+    display: none;
+  }
+  .text-select-file {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 3vw;
+    margin: -4.5% 0 0 40%;
+  }
+  .upload {
+    width: 75vw;
+    height: 5vw;
+    min-width: 75vw;
+    min-height: 5vw;
+    margin: 3.5% 0 0 11.5%;
+    border: 0.5vw solid #e33063;
+    border-radius: 35px;
+    font-size: 3vw;
+    font-family: 'Patrick Hand', cursive; 
+    background-color: #fe346e;
+  }
+  .container-image {
+    width: 60%;
+    height: 76%;
+    min-width: 60%;
+    min-height: 76%;
+    margin: 0 0 0 20%;
+    border: 0.25vw solid black;
+    border-radius: ;
+    background-color: ;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    min-width: 50%;
+    min-height: 25%;
+    margin: 0 0 0 0;
+    border-radius: ;
+    background-color: ;
+  }
+  .text-image {
+    width: 100%;
+    font-size: 2.75vw;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    background-color: #4a47a3;
+    color: #e8e6e6; 
     position: relative;
+    bottom:  1.75vw;
 
   }
-img {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 </style>
 <body>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0"></script>
- <center><h1>DISCLAIMER</h1><p>All of the roasts commanded are not related and meant for a certain someone. Every Joke made here has been collected from the internet randmoly and without any fore-thought. Any type of rascist,religous,sexist and indisciplinary jokes made on this website are not really meant and is just a JOKE so please do not be butt-hurt. Thank You. Also, please don't use your background as black bcoz the developer is color blind and therfore couldn't do the design perfectly. Press two times </p></center>
-<form action="index.php" enctype="multipart/form-data" method="post">
-  <div style="text-align: center;">
-    <img src="web_images/image1.jpg" style="position: relative; top: 20%; left: 10%;">
-    <img src="image2.jpg" style="position: relative; top: 1.45em;left: 10%;">
-<input type="file" name="file" class="buttonSelectFile" value="Select Photo"><br/>
-<input type="submit" value="Get Roasted!" name="Submit1" class="buttonUpload"> <br/>
-<div class="fb-share-button" data-href="https://www.facebook.com/" data-layout="button_count" data-size="large" style="position:relative; top: 6.5em; left: 35%;"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
- </div>
- 
-</form>
+  <div class="container">
+    <h1 class="text-getroasted">Get Roasted!</h1>
+  </div>
+  <h1 class="text-simple">It's Simple!</h1>
+  <div>
+    <form action="index.php" enctype="multipart/form-data" method="post">
+<input type="file" name="file" class="select-file" value="Click MEEEEEEE">
+  <h1 class="text-select-file">Click MEEEEEEE</h1>
+<input type="submit" value="Get Roasted!" name="submit" class="upload"> <br/>
+    </form>
+</div>
 <?php
 include_once 'dbconn.php';
 
-if(isset($_POST['Submit1']) || isset($_POST['buttonRefresh']))
+if(isset($_POST['submit']))
 { 
-include_once 'dbconn.php';
-
-  $ipaddress = '27.4.143.46';
-    if (('HTTP_CLIENT_IP') == $ipaddress || ('HTTP_X_FORWARDED_FOR') == $ipaddress || ('HTTP_X_FORWARDED') == $ipaddress || ('HTTP_FORWARDED_FOR') == $ipaddress || ('HTTP_FORWARDED') == $ipaddress || ('REMOTE_ADDR') == $ipaddress) {
-
-      $filepath = "images/" . $_FILES["file"]["name"];
-      $sql_special = "SELECT roasts FROM getroasted";
-      foreach ($conn->query($sql) as $row) {
-        if(move_uploaded_file($_FILES["file"]["tmp_name"], $filepath)) {
-          echo '<div class="container">
-          <img class="container" src="' .$filepath.'" style="width:45%; height: 85%;" />
-          <div class="bottom-left" id="fitFont">' . $row['roasts'] . 
-          '</div>
-          </div>';
-        echo '<audio controls>
-            <source src="Shubham1.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>';
-        }
-        else {
-      echo "Error!! Call Shlok Jain";
-      }
-      }
-    }
-
 $sql = "SELECT roasts FROM getroasted ORDER BY RAND() LIMIT 1;";
 
 $filepath = "images/" . $_FILES["file"]["name"];
@@ -99,21 +132,14 @@ $filepath = "images/" . $_FILES["file"]["name"];
  foreach ($conn->query($sql) as $row) {
 
   if(move_uploaded_file($_FILES["file"]["tmp_name"], $filepath)) {
-
-echo '<div class="container">
- <img class="container" src="' .$filepath.'" style="width:45%; height: 85%;" alt="' . $row['roasts'] . '"/>
- <div class="bottom-left" id="fitFont">' . $row['roasts'] . 
- '</div>
- </div>';
+    echo 
+    '<div class="container-image">
+       <img class="image" src="' . $filepath .'"/>
+       <h1 class="text-image">' . $row['roasts'] . '</h1>
+    </div>';
     } 
-  else {
-    echo "Error !!";
   }
 }
-}
-
-
 ?>
- 
 </body>
 </html>
