@@ -12,5 +12,6 @@ External Customization:
   UP the page speed
   AND use your Creativity
   
+THANK YOU!  
  
- Thank You People!
+-Shlok Jain
