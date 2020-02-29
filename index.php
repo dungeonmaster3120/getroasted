@@ -1,3 +1,10 @@
+<!-- 
+Hi There! 
+You can use this website for fun, to have a small giggle with your friends, 
+or destroy your enemy but please don't use it for the latter option.
+Have fun and Have a great day ahead!
+- SHLOK JAIN!
+-->
 <html>
 <head>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -121,18 +128,18 @@
     </form>
 </div>
 <?php
-include_once 'dbconn.php';
+include_once 'dbconn.php'; // include connect file to 
 
-if(isset($_POST['submit']))
+if(isset($_POST['submit'])) // Check the post-request
 { 
-$sql = "SELECT roasts FROM getroasted ORDER BY RAND() LIMIT 1;";
+$sql = "SELECT roasts FROM getroasted ORDER BY RAND() LIMIT 1;"; // query a random roast off of the vast roasts
 
-$filepath = "images/" . $_FILES["file"]["name"];
+$filepath = "images/" . $_FILES["file"]["name"]; // save the image in our images folder
 
- foreach ($conn->query($sql) as $row) {
+ foreach ($conn->query($sql) as $row) { // run a foreach command to select one roast at a time
 
-  if(move_uploaded_file($_FILES["file"]["tmp_name"], $filepath)) {
-    echo 
+  if(move_uploaded_file($_FILES["file"]["tmp_name"], $filepath)) { // check if the file is there or not
+    echo // design for the individual roast and the image along with it
     '<div class="container-image">
        <img class="image" src="' . $filepath .'"/>
        <h1 class="text-image">' . $row['roasts'] . '</h1>
