@@ -1,5 +1,5 @@
 # getroasted
-Get roasted is a website for people to post images and get themselves roasted by an in-built array of roasts found by a python-scraping-script.
+getroasted is a simple website for people to post pictures on and get themselves roasted! It uses a pre-existing database which has all the insults loaded and fires of one randomly!
 
 ## Tutorial:
   * Download a web server
