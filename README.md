@@ -1,22 +1,17 @@
 # getroasted
 Get roasted is a website for people to post images and get themselves roasted by an in-built array of roasts found by a python-scraping-script.
 
-# To use:
-  Download Xampp or a Web-Server if you don't have one
-  
-  Create a images folder in the main directory
-  
-  Run the website on the localhost
+# Tutorial:
+  *Download a web server
+  *Create an images folder in the root directory
+  *Run the website! 
 
 # External Customization:
-  Design the website as per your own rules
-  
-  Add some creative roasts in the database
-  
-  UP the page speed
-  
-  AND use your Creativity
-  
-THANK YOU!  
- 
-# Shlok Jain
+  *Let your imagination run wild by designing the webpage for your personal use!
+  *Get creative by adding some of your own roasts and give a homely feeling to the database!
+  *Enhance the speed and functionality
+# TO-DO:
+  *Add a python scraper which saves roasts from the internet in our database!
+  *Allow users to store the images.
+  *Provide more functionality!
+# Thank You!
